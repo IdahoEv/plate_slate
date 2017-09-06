@@ -38,7 +38,11 @@ defmodule PlateSlate.Mixfile do
       {:phoenix_ecto, "~> 3.2"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:absinthe,         "~> 1.4.0-beta", override: true},      
+      {:absinthe_plug,    "~> 1.4.0-beta", override: true},
+      {:absinthe_phoenix, "~> 1.4.0-beta", override: true},
+      {:absinthe_ecto, ">= 0.0.0"}
     ]
   end
 
